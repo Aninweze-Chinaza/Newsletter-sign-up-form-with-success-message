@@ -36,6 +36,7 @@ main{
 h1{
     color: hsl(234, 29%, 20%);
     margin: 1rem;
+    font-size: 3.05rem;
 }
 li{
     list-style-type: none;
