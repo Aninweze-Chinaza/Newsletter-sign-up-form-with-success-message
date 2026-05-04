@@ -9,7 +9,7 @@ const dismissButton = document.querySelector('.dismiss-button');
 newsletterForm.addEventListener('submit', (e) =>{
     e.preventDefault();
     const emailValue = emailInput.value.trim();
-    const emailPattern = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
+    const emailPattern = /^[\w.-]+@([\w-]+\.)+[\w-]{2,4}$/
 
     //Validation check
     if(emailValue === ""){
